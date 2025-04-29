@@ -14,15 +14,18 @@ To write a C Program to find area of rectangle using pointer.
 ```C
 
 #include <stdio.h>
-#include <stdlib.h>
 int main() 
 {
-    char *str;
-    str = (char *)malloc(100 * sizeof(char));
-    printf("Enter a string: ");
-    scanf("%[^\n]", str);  
-    printf("You entered: %s\n", str);
-    free(str);
+    int x,z;
+    int *y;
+    int area;
+    printf("Enter length of the rectangle: ");
+    scanf("%d", &x);
+    printf("Enter breadth of the rectangle: ");
+    scanf("%d", &z);
+    *y=z;
+    area = x *(*y);  
+    printf("Area of the rectangle: %d", area ); 
     return 0;
 }
 
@@ -30,7 +33,7 @@ int main()
 
 ## OUTPUT
 		       	
-![Screenshot 2025-04-30 012743](https://github.com/user-attachments/assets/b5ec493a-c514-41b2-a6f6-517c7f0b3aea)
+![Screenshot 2025-04-30 013800](https://github.com/user-attachments/assets/98d8ae48-50a1-48d4-86b4-6549d0c56f98)
 
 ## RESULT
 Thus the program to find area of rectangle using pointer has been executed successfully
@@ -49,6 +52,49 @@ To write a C Program to print 'WELCOME' using malloc() and free().
 4.	Display the string.
 5.	Remove the allocated memory using free().
 6.	Stop the program.
+
+## PROGRAM
+
+```C
+
+#include <stdio.h>
+#include <stdlib.h>
+int main() 
+{
+    char *str;
+    str = (char *)malloc(100 * sizeof(char));
+    printf("Enter a string: ");
+    scanf("%[^\n]", str);  
+    printf("You entered: %s\n", str);
+    free(str);
+    return 0;
+}
+
+```
+
+## OUTPUT
+
+![Screenshot 2025-04-30 013253](https://github.com/user-attachments/assets/4765c538-01b4-4ae4-ac64-afb0ce1f8e67)
+
+## RESULT
+Thus the program to print 'WELCOME' using malloc() and free() has been executed successfully
+ 
+
+
+
+
+# EX-28-STUDENT-INFORMATION-USING-STRUCTURE
+
+## AIM
+
+To write a C Program to store the student information and display it using structure.
+
+## ALGORITHM
+
+1.	Start the program.
+2.	Create a student structure with name, roll number and marks as members.
+3.	Using structure variable read the structure members and print them.
+4.	Stop the program.
 
 ## PROGRAM
 
@@ -81,53 +127,7 @@ int main()
 
 ## OUTPUT
 
-![Screenshot 2025-04-30 013253](https://github.com/user-attachments/assets/4765c538-01b4-4ae4-ac64-afb0ce1f8e67)
-
-## RESULT
-Thus the program to print 'WELCOME' using malloc() and free() has been executed successfully
- 
-.
-
-
-
-# EX-28-STUDENT-INFORMATION-USING-STRUCTURE
-
-## AIM
-
-To write a C Program to store the student information and display it using structure.
-
-## ALGORITHM
-
-1.	Start the program.
-2.	Create a student structure with name, roll number and marks as members.
-3.	Using structure variable read the structure members and print them.
-4.	Stop the program.
-
-## PROGRAM
-
-```C
-
-#include <stdio.h>
-int main() 
-{
-    int x,z;
-    int *y;
-    int area;
-    printf("Enter length of the rectangle: ");
-    scanf("%d", &x);
-    printf("Enter breadth of the rectangle: ");
-    scanf("%d", &z);
-    *y=z;
-    area = x *(*y);  
-    printf("Area of the rectangle: %d", area ); 
-    return 0;
-}
-
-```
-
-## OUTPUT
-
-![Screenshot 2025-04-30 013800](https://github.com/user-attachments/assets/98d8ae48-50a1-48d4-86b4-6549d0c56f98)
+![Screenshot 2025-04-30 012743](https://github.com/user-attachments/assets/b5ec493a-c514-41b2-a6f6-517c7f0b3aea)
 
 ## RESULT
 
