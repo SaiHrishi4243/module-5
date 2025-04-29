@@ -74,7 +74,7 @@ int main()
 
 ## OUTPUT
 
-![Screenshot 2025-04-30 013253](https://github.com/user-attachments/assets/4765c538-01b4-4ae4-ac64-afb0ce1f8e67)
+![Screenshot 2025-04-30 012743](https://github.com/user-attachments/assets/b5ec493a-c514-41b2-a6f6-517c7f0b3aea)
 
 ## RESULT
 Thus the program to print 'WELCOME' using malloc() and free() has been executed successfully
@@ -127,7 +127,7 @@ int main()
 
 ## OUTPUT
 
-![Screenshot 2025-04-30 012743](https://github.com/user-attachments/assets/b5ec493a-c514-41b2-a6f6-517c7f0b3aea)
+![Screenshot 2025-04-30 013253](https://github.com/user-attachments/assets/4765c538-01b4-4ae4-ac64-afb0ce1f8e67)
 
 ## RESULT
 
